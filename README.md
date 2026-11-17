@@ -1,4 +1,4 @@
-# Sistema de Gestión de Estudiantes - UTA
+# Sistema de Gestión de Estudiantes de la UTA - Proyecto de Computación Visual
 
 Sistema integral de gestión académica desarrollado con arquitectura híbrida: **Aplicación Web (PHP MVC)** y **Aplicación de Escritorio (Java Swing)**, ambas conectadas a una misma base de datos MySQL para la administración de estudiantes y generación de reportes.
 
