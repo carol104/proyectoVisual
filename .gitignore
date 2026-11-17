@@ -1,0 +1,82 @@
+# ==============================================================================
+# PHP / Composer
+# ==============================================================================
+# Ignora todas las carpetas vendor (raíz y subdirectorios como phpjasperxml-master/vendor)
+vendor/
+**/vendor/
+composer.phar
+.phpunit.result.cache
+
+# ==============================================================================
+# Java & NetBeans IDE
+# ==============================================================================
+# Archivos compilados bytecode de Java
+*.class
+**/*.class
+
+# Carpetas de compilación y empaquetado generadas por NetBeans/Ant
+build/
+**/build/
+dist/
+**/dist/
+
+# Configuraciones y cachés privadas de NetBeans
+nbproject/private/
+**/nbproject/private/
+.netbeans_automatic_build
+.netbeans_update_resources
+
+# Reportes compilados binarios de JasperReports (los fuentes son los .jrxml)
+*.jasper
+**/*.jasper
+
+# ==============================================================================
+# Editores de Código e IDEs
+# ==============================================================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ IDEA / PhpStorm / WebStorm)
+.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ==============================================================================
+# Archivos del Sistema Operativo y Temporales
+# ==============================================================================
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+**/._*
+
+# Windows
+Thumbs.db
+**/Thumbs.db
+ehthumbs.db
+**/ehthumbs.db
+Desktop.ini
+**/Desktop.ini
+$RECYCLE.BIN/
+
+# Linux y Editores (Vim, Nano, etc.)
+*~
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
